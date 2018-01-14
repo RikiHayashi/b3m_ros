@@ -6,7 +6,15 @@ CIT 2017年度 ロボットシステム学 課題2 ROS
 * ROSでサーボOnと動作のノードを作成
 
 ### 使用方法
-`$ `
+ `$ cd ~/catkin_ws/src/`
+ `$ git clone `
+ `$ rosrun`
+* 違う端末を開く
+ `$ cd ~/catkin_ws/src/b3m_leg`
+ `$ rosrun b3m_leg b3m_leg` servoのトルクが入る。
+* 違う端末を開く
+ `$ cd ~/catkin_ws/src/b3m_led`
+ `$ rosrun b3m_leg b3m_send.py`　一定の周期で動作。
 
 ### 動画
 * [b3m_servo_ros]()
