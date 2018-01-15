@@ -16,7 +16,7 @@ CIT 2017年度 ロボットシステム学 課題2 ROS
  `$ rosrun b3m_leg b3m_leg &` servoのトルクが入る。
 
  `$ cd ~/catkin_ws/src/b3m_led`    
- `$ rosrun b3m_leg b3m_send.py &`　一定の周期で動作。
+ `$ rosrun b3m_leg b3m_send.py`　一定の周期で動作。
 
 ### 動画
 * [b3m_servo_ros](https://youtu.be/RlHcSc8ZGGo)
