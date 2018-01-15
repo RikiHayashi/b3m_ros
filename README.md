@@ -10,12 +10,8 @@ CIT 2017年度 ロボットシステム学 課題2 ROS
  `$ git clone https://github.com/RikiHayashi/b3m_ros.git`  
  `$ cd ../`   
  `$ catkin_make`   
- `$ roscore &`   
-
- `$ cd ~/catkin_ws/src/b3m_leg`   
- `$ rosrun b3m_leg b3m_leg &` servoのトルクが入る。
-
- `$ cd ~/catkin_ws/src/b3m_led`    
+ `$ roscore &`    
+ `$ rosrun b3m_leg b3m_leg &` servoのトルクが入る。    
  `$ rosrun b3m_leg b3m_send.py`　一定の周期で動作。
 
 ### 動画
