@@ -6,7 +6,7 @@ CIT 2017年度 ロボットシステム学 課題2 ROS
 * ROSでサーボOnと動作のノードを作成
 
 ### 使用方法
- `$ cd ~/catkin_ws/src/`
+ `$ cd ~/catkin_ws/`
  `$ git clone `
  `$ rosrun`
 * 違う端末を開く
